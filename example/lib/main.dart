@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:component_icons/component_icons.dart';
+import 'package:component_icons/fontawesome.dart';
 
 void main() {
   runApp(new FontAwesomeGalleryApp());
