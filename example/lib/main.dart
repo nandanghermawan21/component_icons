@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:component_icons/component_icons.dart';
 
 void main() {
   runApp(new FontAwesomeGalleryApp());
@@ -38,21 +38,22 @@ class FontAwesomeGalleryHomeState extends State<FontAwesomeGalleryHome> {
           child: Row(
             children: <Widget>[
               Icon(
-                FontAwesome.intSolid(FontAwesomeId.fa_address_book),
-                color: Colors.redAccent,
+                FontAwesome.intSolid(FontAwesomeId.fa_arrow_alt_circle_down),
               ),
               SizedBox(
-                width: 5,
+                width: 10,
               ),
-              Icon(FontAwesome.intRegular(FontAwesomeId.fa_ambulance)),
+              Icon(FontAwesome.intRegular(
+                  FontAwesomeId.fa_arrow_alt_circle_down)),
               SizedBox(
-                width: 5,
+                width: 10,
               ),
-              Icon(FontAwesome.intLight(FontAwesomeId.fa_angel)),
+              Icon(
+                  FontAwesome.intLight(FontAwesomeId.fa_arrow_alt_circle_down)),
               SizedBox(
-                width: 5,
+                width: 10,
               ),
-              Icon(FontAwesome.intBrands(FontAwesomeId.fa_500px)),
+              Icon(FontAwesome.intBrands(FontAwesomeId.fa_uber)),
             ],
           ),
         ));

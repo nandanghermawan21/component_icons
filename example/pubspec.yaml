@@ -4,9 +4,8 @@ description: The Font Awesome Flutter Gallery
 dependencies:
   flutter:
     sdk: flutter
-  font_awesome_flutter:
+  component_icons:
     path: ../
 
 flutter:
   uses-material-design: true
-
