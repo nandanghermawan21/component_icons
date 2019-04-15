@@ -2,8 +2,18 @@ library font_awesome_flutter;
 
 import 'package:flutter/widgets.dart';
 
+ 
+
 class IconDataBrands extends IconData {
   const IconDataBrands(int codePoint)
+      : super(
+          codePoint,
+          fontFamily: 'FontAwesomeBrands',
+          fontPackage: 'font_awesome_flutter',
+        );
+}
+class IconDataBrandsStatic extends IconData {
+  const IconDataBrandsStatic(int codePoint)
       : super(
           codePoint,
           fontFamily: 'FontAwesomeBrands',
@@ -25,6 +35,15 @@ class IconDataRegular extends IconData {
       : super(
           codePoint,
           fontFamily: 'FontAwesomeRegular',
+          fontPackage: 'font_awesome_flutter',
+        );
+}
+
+class IconDataLight extends IconData {
+  const IconDataLight(int codePoint)
+      : super(
+          codePoint,
+          fontFamily: 'FontAwesomeLight',
           fontPackage: 'font_awesome_flutter',
         );
 }
